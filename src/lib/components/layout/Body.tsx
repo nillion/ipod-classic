@@ -5,8 +5,8 @@ interface IBodyProps {
 }
 
 const Body = styled.aside<IBodyProps>`
-    width: 415px;
-    height: 692px;
+    width: 375px;
+    height: 665px;
     border: 1px solid transparent;
     border-radius: 38px;
     background: linear-gradient(
@@ -14,7 +14,6 @@ const Body = styled.aside<IBodyProps>`
         ${({ theme }) => theme.darkBackground},
         ${({ theme }) => theme.lightBackground}
     );
-    transform: scale(0.67, 0.67);
     box-shadow: inset 5px -5px 25px 3px ${({ theme }) => theme.midGrey};
 `;
 
